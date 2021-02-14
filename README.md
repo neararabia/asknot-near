@@ -10,13 +10,12 @@ Inspired by whatcanidoformozilla.org.
 
 If you are a developer and want to make some changes, you can do so by:
 
-- Fork this repo
-- Edit the files 
-- Make a pull request
+- Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+- Make the neccassry changes by editing the files.
+- Make a pull request.
 
-If you are a translator, you can contribute to the translation by:
+- If  you need a local copy of the code, you can clone the forked repository
+Click on the clipboard icon next to the SSH or HTTPS URL of your forked repository to copy it.
+Open a terminal and run the following git command
 
-- Go to https://github.com/Cryptoblarabi/asknot-near/tree/main/locales
-- Choose your language and open the file, for example, en.ini is the file for the English language
-- Edit the file and add your translation
-- Make a pull request
+         git clone url you just copied
