@@ -11,11 +11,11 @@ Inspired by whatcanidoformozilla.org.
 If you are a developer and want to make some changes, you can do so by:
 
 - Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-- Make the neccassry changes by editing the files.
+- Make the necessary changes by editing the files.
 - Make a pull request.
 
 - If  you need a local copy of the code, you can clone the forked repository
 Click on the clipboard icon next to the SSH or HTTPS URL of your forked repository to copy it.
 Open a terminal and run the following git command
 
-         git clone url you just copied
+         git clone "url you just copied"
