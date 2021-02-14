@@ -4,7 +4,8 @@ Ask not what NEAR can do for you, but what you can do for NEAR.
 
 We aim to showcase the different pathways of participating in the NEAR ecosystem in an effective way.
 
-Inspired by whatcanidoformozilla.org.
+Inspired by https://whatcanidoformozilla.org.
+Thanks to [Sheryas](https://gov.near.org/u/shreyas)
 
 ## Do you want to contribute?
 
