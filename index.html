@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>What can I do for NEAR</title>
+  <link rel="shortcut icon" href="media/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="media/css/style.css" title="Default">
+  <link rel="alternate stylesheet" type="text/css" href="media/css/plain.css" title="Bird's Eye View">
+  <link rel="resource" type="application/l10n" href="locales.ini" />
+  <script src="media/js/jquery-1.11.2.min.js"></script>
+  <script src="media/js/foopy.js"></script>
+  <script src="media/js/l10n.js"></script>
+  <!-- #responses div elements has display:none by default in case if js is disabled -->
+  <script>
+    $(document).ready(function() {
+        $('#responses div').show();
+    });
+  </script>
+  <!-- end of manipulation if js is disabled -->
+</head>
+<body>
+  <header class="section masthead" id="masthead">
+     <a href="https://www.near.org/">
+      <svg viewBox="0 0 578.55 185.54" class="near-logo">
+        <title>NEAR</title>
+ <path d="M207.21,54.75v52.5a.76.76,0,0,1-.75.75H201a7.49,7.49,0,0,1-6.3-3.43l-24.78-38.3.85,19.13v21.85a.76.76,0,0,1-.75.75h-7.22a.76.76,0,0,1-.75-.75V54.75a.76.76,0,0,1,.75-.75h5.43a7.52,7.52,0,0,1,6.3,3.42l24.78,38.24-.77-19.06V54.75a.75.75,0,0,1,.75-.75h7.22A.76.76,0,0,1,207.21,54.75Z"/><path d="M281,108h-7.64a.75.75,0,0,1-.7-1L292.9,54.72A1.14,1.14,0,0,1,294,54h9.57a1.14,1.14,0,0,1,1.05.72L324.8,107a.75.75,0,0,1-.7,1h-7.64a.76.76,0,0,1-.71-.48l-16.31-43a.75.75,0,0,0-1.41,0l-16.31,43A.76.76,0,0,1,281,108Z"/><path d="M377.84,106.79,362.66,87.4c8.57-1.62,13.58-7.4,13.58-16.27,0-10.19-6.63-17.13-18.36-17.13H336.71a1.12,1.12,0,0,0-1.12,1.12h0a7.2,7.2,0,0,0,7.2,7.2H357c7.09,0,10.49,3.63,10.49,8.87s-3.32,9-10.49,9H336.71a1.13,1.13,0,0,0-1.12,1.13v26a.75.75,0,0,0,.75.75h7.22a.76.76,0,0,0,.75-.75V87.87h8.33l13.17,17.19a7.51,7.51,0,0,0,6,2.94h5.48A.75.75,0,0,0,377.84,106.79Z"/><path d="M258.17,54h-33.5a1,1,0,0,0-1,1h0A7.33,7.33,0,0,0,231,62.33h27.17a.74.74,0,0,0,.75-.75V54.75A.75.75,0,0,0,258.17,54Zm0,45.67h-25a.76.76,0,0,1-.75-.75V85.38a.75.75,0,0,1,.75-.75h23.11a.75.75,0,0,0,.75-.75V77a.75.75,0,0,0-.75-.75H224.79a1.13,1.13,0,0,0-1.12,1.13v29.46a1.12,1.12,0,0,0,1.12,1.12h33.38a.75.75,0,0,0,.75-.75v-6.83A.74.74,0,0,0,258.17,99.67Z"/><path d="M108.24,40.57,89.42,68.5a2,2,0,0,0,3,2.63l18.52-16a.74.74,0,0,1,1.24.56v50.29a.75.75,0,0,1-1.32.48l-56-67A9.59,9.59,0,0,0,47.54,36H45.59A9.59,9.59,0,0,0,36,45.59v70.82A9.59,9.59,0,0,0,45.59,126h0a9.59,9.59,0,0,0,8.17-4.57L72.58,93.5a2,2,0,0,0-3-2.63l-18.52,16a.74.74,0,0,1-1.24-.56V56.07a.75.75,0,0,1,1.32-.48l56,67a9.59,9.59,0,0,0,7.33,3.4h2a9.59,9.59,0,0,0,9.59-9.59V45.59A9.59,9.59,0,0,0,116.41,36h0A9.59,9.59,0,0,0,108.24,40.57Z"/></svg>
+    </a>
+    <div id="lang">
+      <span id="lang-selection" data-l10n-id="lang-selection">Language:</span>
+      <select>
+        <option value='ar'>عربي | Arabic</option>
+        <option selected value='en'>English</option>
+      </select>
+    </div>
+  </header>
+
+  <div id="wrapper">
+    <div class="group" id="progornoprog">
+      <span class="question" data-l10n-id="progquestion"></span>
+      <ul class="choices">
+        <li next-group="proglang"><span data-l10n-id="writecode"></span></li>
+        <li next-group="contcreation"><span data-l10n-id="contentcreation"></span></li>
+        <li next-group="translate"><span data-l10n-id="translation"></span></li>
+    <li next-group="socisupport"><span data-l10n-id="socisupport"></span></li>
+        <li next-group="uxdesign"><span data-l10n-id="uxdesign"></span></li>
+               
+      </ul>
+    </div>
+
+    <div class="group" id="contcreation">
+      <span class="question" data-l10n-id="qa-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org/guilds/" data-choice-id="webqa"> Write articles
+          <div class="extra" data-l10n-id="webqa-extra"></div>
+        </li>
+        
+        <span class="question" data-l10n-id="qa1-intro"></span>
+        <li target="https://near.org/guilds/" data-choice-id="ffqa">Make videos
+          <div class="extra" data-l10n-id="ffqa-extra"></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="group" id="uxdesign">
+      <span class="question" data-l10n-id="uxdesign-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org/brand" data-choice-id="l10n-creative">NEAR brand
+          <div class="extra" data-l10n-id="creative-extra"></div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="group" id="translate">
+      <span class="question" data-l10n-id="translate-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org/guilds" data-choice-id="l10n-tb">Join the Guild program
+          <div class="extra" data-l10n-id="l10n-extra-tb">and start translating!</div>
+        </li>
+      
+      </ul>
+    </div>
+
+<div class="group" id="socisupport">
+      <span class="question" data-l10n-id="socisupport-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org" data-choice-id="l10n-tb">
+            
+<a href="https://twitter.com/nearprotocol" target="_blank"> <img src="https://i.imgur.com/7gfZnYH.png" style="width:42px;height:42px;"></a>
+
+<a href="https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw" target="_blank"> <img src="https://i.imgur.com/NOkhK04.png" style="width:42px;height:42px;"></a>
+
+<a href="https://t.me/cryptonear" target="_blank"> <img src="https://i.imgur.com/5Ibbzzo.png" style="width:42px;height:42px;"></a>
+<div class="extra" data-l10n-id="webqa-extra1"></div>
+        </li> 
+       <span class="question" data-l10n-id="socisupport-intro1"></span>
+        <li target="https://gov.near.org/" data-choice-id="ffqa">NEAR forum
+          <div class="extra" data-l10n-id="ffqa-extra1"></div>
+
+<div class="extra" data-l10n-id="socisupport-extra"></div>
+        </li>
+      
+      </ul>
+    </div>
+
+<div class="group" id="proglang">
+      <span class="question" data-l10n-id="question"></span>
+      <ul class="choices">
+        <li next-group="sol">Solidity</li>
+        <li next-group="assembly">AssemblyScript</li>
+        <li next-group="rust">Rust</li>
+      </ul>
+    </div>
+    
+     <div class="group" id="rust">
+      <span class="question" data-l10n-id="rust-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org/developers/" data-choice-id="ff-cpp">Start budiling dApps now!
+          <div class="extra" data-l10n-id="rustc-extra"></div>
+        </li>
+      </ul>
+    </div>
+    
+     <div class="group" id="assembly">
+      <span class="question" data-l10n-id="ff-assembly-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org/developers/" data-choice-id="ff-cpp">Start budiling dApps now!
+          <div class="extra" data-l10n-id="ff-assembly-ff"></div>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="group" id="sol">
+      <span class="question" data-l10n-id="sol-intro"></span>
+      <ul class="choices">
+        <li target="https://near.org/developers/" data-choice-id="ff-cpp">Start Enjoy the best of both worlds NEAR and Etheruem!
+          <div class="extra" data-l10n-id="sol-extra"></div>
+        </li>
+      </ul>
+    </div>
+  
+
+    <div id="responses">
+      <div id="ok"><a href="javascript:" data-l10n-id="more"></a></div>
+      <div id="next">
+        <a href="javascript:">
+          <span data-l10n-id="negative1" class="negative"></span>
+          <span data-l10n-id="negative2" class="negative"></span>
+          <span data-l10n-id="negative3" class="negative"></span>
+          <span data-l10n-id="negative4" class="negative"></span>
+          <span data-l10n-id="negative5" class="negative"></span>
+          <span data-l10n-id="negative6" class="negative"></span>
+        </a>
+      </div>
+      <div id="back"><a href="javascript:" data-l10n-id="back"></a></div>
+      <!-- message showing only if javascript disabled -->
+      <noscript>
+          <span>Please enable JavaScript in your browser!</span>
+      </noscript>
+      <!-- end of noscript message -->
+    </div>
+
+    <div id="footer" data-l10n-id="credits"></div>
+  </div>
+</body>
+</html>
